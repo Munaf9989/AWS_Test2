@@ -17,4 +17,3 @@ provider "aws" {
 module "Monitoring_account" {
   source = "./Monitoring-Account-Module"
 }
-
