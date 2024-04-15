@@ -16,4 +16,5 @@ provider "aws" {
 #Monitoring Account
 module "Monitoring_account" {
   source = "./Monitoring-Account-Module"
+  source_account_org_path = local.source_account_org_path
 }
